@@ -76,8 +76,8 @@ class Email:
             print("Error: %s" % e)
 
 
-f_e = 'guileizhu@163.com'
-e_p = 'BNRNXZFBUABQSSAD'
+f_e = '13246457757@163.com'
+e_p = 'IBUGSNANUVEDGZKD'
 t_e = ['497025048@qq.com']
 d_p = 'C:/Users/Young/Desktop/picture'
 o_p = 'E:/Pycharm/Python_text/exercise/test.rar'
