@@ -243,7 +243,7 @@ for step in range(0, 1000):
     err_step.append(err)
     print('completion rates = {:.1%}'.format(step / 1000))
 
-# sio.savemat('Exp_n_N_%s_D_100_new.mat' % N, {'exp_n_N_%s_D_100_new' % N: exp_n, 'exp_e_N_%s_D_100_new' % N: exp_e, 'err_N_%s_D_100_new' % N: err_step})
+sio.savemat('Exp_n_N_%s_D_%s_new.mat' % (N,chi), {'exp_n_N_%s_D_%s_new' % (N,chi): exp_n, 'exp_e_N_%s_D_%s_new' % (N,chi): exp_e, 'err_N_%s_D_%s_new' % (N,chi): err_step})
 t_f = time.time()
 seconds = t_f - t_i
 m, s = divmod(seconds, 60)
